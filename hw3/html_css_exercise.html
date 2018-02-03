@@ -23,8 +23,17 @@
 		div.twocol
 		{
 			display: block;
-			height: 300px;
-			width: 0;
+			height: auto;
+			width: 50%;
+			float: left;
+		}
+		#l
+		{
+			margin-right: 10px;
+		}
+		#r
+		{
+			margin-left: 10px
 		}
 
 
@@ -59,16 +68,16 @@
 </div>
 
 <div>
-	<div style="float: left;">
+	<div class="twocol" id="l">
 		<div><img src="./material/image3.jpg"></div>
 		<div><img src="./material/image2.jpg"></div>
-		<div><p.teststyle>Freshest Island</font></p>
-			<p.teststyle>food from local vendors</font></p>
+		<div><p>Freshest Island</p>
+			<p>food from local vendors</p>
 			<p>Supporting local economy and the environment. Gluten-free items also available.</p>
 			<p><a href="page2.html">Read More Here</a></p>
 		</div>
 	</div>
-	<div style="float: left;">
+	<div class="twocol" id="r">
 		<div>
 			<p><font class="teststyle">Local fresh cuisine for everyone</font></p>
 			<p>Pineapples is a family-owned and operated restaurant, dediccated to proving island fresh cuishine to the east side of the Big island. Our restaurant is located in the historic. Pineapple Building, located in the heart of downtown Hilo</p>
@@ -87,7 +96,7 @@
 		<p.teststyle>"Love it. We walkerd in around 6:30 without reservations and were seated. <br>The coconut crusted ono was on special and perfect."</p>
 	</div>
 </div>
-<div id="part4">
+<div >
 	<p>@2017 by Pineapples Hilo Restaurant <br>pineapplesshilo.com</p>
 </div>
 </body>

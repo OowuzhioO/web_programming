@@ -3,42 +3,7 @@
 <head>
 	<title>	HTML and CSS Exercise</title>
 	<style type="text/css" href="hce.css">
-		.textcenter
-		{
-			margin: auto;
-			text-align: center;
-		}
-		#part2
-		{
-			background-color: white
-		}
-		#part3
-		{
-			background-color: white
-		}
-		#part4
-		{
-			background-color: yellow
-		}
-		li
-		{
-			display: inline;
-		}
-		.floatleft
-		{
-			float: left;
-		}
-		.floatright
-		{
-			float: right;
-		}
-		p.teststyle
-		{
-			font-size: medium;
-			color: brown;
-		}
-
-		ul
+		ul.wd
 		{
 			margin: 0;
 			display: block;
@@ -47,7 +12,7 @@
 			width: auto;
 		}
 
-		li
+		li.wd
 		{
 			display: inline;
 			float: left;
@@ -55,29 +20,36 @@
 			text-align: center;
 		}
 
+		div.twocol
+		{
+			display: block;
+			height: 300px;
+			width: 0;
+		}
+
 
 
 	</style>
 </head>
 <body>
-<div id="part1">
+<div>
 	<div >
 		<div>
-			<div style="padding-left: 100px">
+			<div style="padding-left: 70px">
 				<p><font size="3">332 Keawe Street</font></p>
 				<p><font size="3">Hilo, Hawii 96720</font></p>
 			</div>
 			<div>
-				<p class="textcenter"><font size="10" color="brown">THYME</font></p>
+				<p style="text-align: center;"><font size="10" color="brown">THYME</font></p>
 			</div>
 		</div>
 		<div>
 			<ul>
-				<li><font color="brown">Home</font></li>
-				<li>Our Vision</li>
-				<li>Menu</li>
-				<li>Order Online</li>
-				<li>Contact Us</li>
+				<li class="wd"><font color="brown">Home</font></li>
+				<li class="wd">Our Vision</li>
+				<li class="wd">Menu</li>
+				<li class="wd">Order Online</li>
+				<li class="wd">Contact Us</li>
 			</ul>
 		</div>
 	</div>
@@ -86,33 +58,24 @@
 	</div>
 </div>
 
-<div id="part2">
-	<div>
-		<div>
-			<img src="./material/image3.jpg">
-		</div>
-		<div>
-			<img src="./material/image2.jpg">
-		</div>
-		<div>
-			<p.teststyle>Freshest Island</font></p>
+<div>
+	<div style="float: left;">
+		<div><img src="./material/image3.jpg"></div>
+		<div><img src="./material/image2.jpg"></div>
+		<div><p.teststyle>Freshest Island</font></p>
 			<p.teststyle>food from local vendors</font></p>
 			<p>Supporting local economy and the environment. Gluten-free items also available.</p>
 			<p><a href="page2.html">Read More Here</a></p>
 		</div>
 	</div>
-	<div>
+	<div style="float: left;">
 		<div>
 			<p><font class="teststyle">Local fresh cuisine for everyone</font></p>
-			<p>Pineapples is a family-owned and operated restaurant, dediccated to proving island fresh cuishine to the east side of the Big island. Our restaurant is located in the historic. Pineapple Building, located in the heart f downtown Hilo</p>
+			<p>Pineapples is a family-owned and operated restaurant, dediccated to proving island fresh cuishine to the east side of the Big island. Our restaurant is located in the historic. Pineapple Building, located in the heart of downtown Hilo</p>
 			<p><a href="page2.html">Read More Here</a></p>
 		</div>
-		<div>
-			<img src="./material/image1.jpg">
-		</div>
-		<div>
-			<img src="./material/image4.jpg">
-		</div>
+		<div><img src="./material/image1.jpg"></div>
+		<div><img src="./material/image4.jpg"></div>
 	</div>
 </div>
 <div id="part3">
